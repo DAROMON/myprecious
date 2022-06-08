@@ -7,7 +7,6 @@ body{
 	border-left: 12px ridge #1f1103;
 	border-right: 12px ridge #1f1103;
 	width: 1200px;
-	width: 1200px;
 	margin: 0 auto;
 }
 .body-text {
@@ -179,6 +178,7 @@ body{
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
   box-sizing: border-box;
   width: 100%;
+  min-width: 1224px;
   text-align: left;
   font: normal 16px sans-serif;
   padding: 45px 50px;
@@ -335,10 +335,7 @@ ul a {
 	line-height:50px; /*ровняем меню по вертикали*/
 	display: block; 
 	border-right: 1px solid #331a00; /*добавляем бордюр справа*/
-	-moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
-	-o-transition: all 0.3s 0.01s ease;
-	-webkit-transition: all 0.3s 0.01s ease;
-
+	transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
 }
 ul a:hover {
 	background: #522901;/*добавляем эффект при наведении*/
